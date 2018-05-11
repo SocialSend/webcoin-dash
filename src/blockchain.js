@@ -1,28 +1,28 @@
 // blockchain definition
 
-var u = require('dash-util')
+var u = require('socialsend-util')
 
 // definition of the genesis block's header
 var genesisHeader = {
   version: 1,
   prevHash: u.nullHash,
-  merkleRoot: u.toHash('e0028eb9648db56b1ac77cf090b99048a8007e2bb64b68f092c03c7f56a662c7'),
-  time: 1390095618,
-  bits: 0x1e0ffff0,
-  nonce: 28917698
+  merkleRoot: u.toHash('b1500a04ebdd55c982f0064e12da90245184f053f86981618631d429e3b70897'),
+  time: 1510940390,
+  bits: 0x1e0fffff,
+  nonce: 614549
 }
 
 // selected block headers for verifying initial sync
 var checkpoints = [
   {
-    height: 407452,
+    height: 200000,
     header: {
       version: 3,
-      prevHash: u.toHash('0000000000010eedb86810ef7ce941fabc7d2be0c0fa2bf8dfcb5b48f573d15b'),
-      merkleRoot: u.toHash('d0761697a9ec536c444591e0ff4dbcba8c78df0263444a5229db58e600e1359d'),
-      time: 1453463939,
-      bits: 0x1b0f1aee,
-      nonce: 872384581
+      prevHash: u.toHash('b5940dfad1a49490942db4c6a72025908840a93be6286ab8cec541aa97d4f911'),
+      merkleRoot: u.toHash('a67f7c3c74eb590d15bb8ebacd95d46ead102ba3517aae7e5683d0f986798061'),
+      time: 1523321644,
+      bits: 0x1b009ea0,
+      nonce: 0
     }
   }
 ]

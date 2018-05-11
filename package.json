@@ -1,7 +1,7 @@
 {
-  "name": "webcoin-dash",
+  "name": "webcoin-socialsend",
   "version": "3.1.4",
-  "description": "Dash parameters for Webcoin",
+  "description": "SocialSend parameters for Webcoin",
   "main": "index.js",
   "scripts": {
     "test": "standard index.js src && nyc tape test/index.js | faucet && nyc report",
@@ -12,7 +12,7 @@
     "publish": "npm run source"
   },
   "keywords": [
-    "dash",
+    "socialsend",
     "webcoin",
     "constants",
     "network",
@@ -21,8 +21,8 @@
   "author": "Matt Bell <mappum@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "dash-util": "^2.0.0",
-    "webcoin-params-dash": "^1.0.0"
+    "socialsend-util": "github:SocialSend/socialsend-util",
+    "webcoin-params-socialsend": "github:SocialSend/webcoin-params-socialsend"
   },
   "devDependencies": {
     "babel-cli": "^6.4.5",
@@ -37,10 +37,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/snogcel/webcoin-dash.git"
+    "url": "git+https://github.com/SocialSend/webcoin-socialsend.git"
   },
   "bugs": {
-    "url": "https://github.com/snogcel/webcoin-dash/issues"
+    "url": "https://github.com/SocialSend/webcoin-socialsend/issues"
   },
-  "homepage": "https://github.com/snogcel/webcoin-dash#readme"
+  "homepage": "https://github.com/SocialSend/webcoin-socialsend#readme"
 }
